@@ -1,0 +1,7 @@
+uptime-monitor
+*.exe
+.env
+services.json
+*.test
+*.out
+go.work

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Auth Service",
+    "url": "https://api.domain.com/auth/health"
+  },
+  {
+    "name": "Main API",
+    "url": "https://api.domain.com/v1/status"
+  }
+]
