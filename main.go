@@ -11,7 +11,7 @@ func main() {
 	cfg := LoadConfig()
 
 	worker := NewMonitorWorker(cfg)
-	go worker.Start(1 * time.Minute)
+	go worker.Start(5 * time.Minute)
 
 	handler := NewServerHandler(cfg)
 	router := handler.SetupRouter()
